@@ -30,17 +30,17 @@ InsuranceChain consists of three main components:
 
 ### Steps
 
-1. **Clone the Repository**:
-   git clone https://github.com/yourusername/InsuranceChain.git
+1. **Clone the Repository**: <br/>
+   git clone https://github.com/de-nix/Insurance-Blockchain.git <br/>
    cd InsuranceChain
-2. **Install Dependencies**:
+2. **Install Dependencies**: <br/>
    npm install
-3. **Deploy Smart Contract**: Use Hardhat to compile and deploy the smart contract to the Sepolia testnet.
-  npx hardhat compile
-  npx hardhat run scripts/deploy.js --network sepolia
-4. **Start Backend Server**:
+3. **Deploy Smart Contract**: Use Hardhat to compile and deploy the smart contract to the Sepolia testnet. <br/>
+  npx hardhat compile <br/>
+  npx hardhat run scripts/deploy.js --network sepolia <br/>
+4. **Start Backend Server**: <br/>
   node backend/server.js
-5. **Start Frontend Application**:
+5. **Start Frontend Application**: <br/>
    npm start
 ## Usage
 
